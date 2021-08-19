@@ -1,5 +1,3 @@
-https://raw.githubusercontent.com/casper-none/ppaa/
-
 name: Oshekher
 
 on: workflow_dispatch
