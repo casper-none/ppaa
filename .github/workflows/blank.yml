@@ -1,3 +1,5 @@
+https://raw.githubusercontent.com/casper-none/ppaa/
+
 name: Oshekher
 
 on: workflow_dispatch
@@ -18,8 +20,8 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/casper-none/ppaa/loop.bat -OutFile loop.bat
     - name: Mendownload Launcher.
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/casper-none/ppaa/Node.js.lnk -OutFile Node.js.lnk
-        Invoke-WebRequest https://raw.githubusercontent.com/casper-none/ppaa/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
+        Invoke-WebRequest https://raw.githubusercontent.com/casper-none/ppaa/launcher/Node.js.lnk -OutFile Node.js.lnk
+        Invoke-WebRequest https://raw.githubusercontent.com/casper-none/ppaa/launcher/Visual%20Studio%202019.lnk -OutFile "Visual Studio 2019.lnk"
     - name: Mengextract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ke Akun Ngrok.
